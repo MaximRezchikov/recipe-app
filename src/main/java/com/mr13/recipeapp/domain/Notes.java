@@ -5,7 +5,8 @@ import javax.persistence.*;
 @Entity
 public class Notes {
 
-    @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @OneToOne
